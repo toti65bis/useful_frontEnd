@@ -1,0 +1,18 @@
+.cap-overlay .button {
+    margin-top: 10px;
+}
+.cap-overlay {
+    background: rgba(0, 0, 0, 0.43) none repeat scroll 0 0;
+    color: #fff;
+    font-size: 14px;
+    left: 0;
+    line-height: 1.4em;
+    padding: 12px;
+    width: 100%;
+}
+.cap-overlay h5 {
+    color: #fff;
+}
+a[data-toggle="drop-panel"] {
+    display: block;
+}

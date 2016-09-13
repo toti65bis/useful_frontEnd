@@ -44,8 +44,8 @@
         this.ready = function () {
         };
         this.itemMargin = 0;
-        this.smallestFontSize = 8;
-        this.startingFontSize = 14;
+        this.smallestFontSize = 14;
+        this.startingFontSize = 24;
         this.centerLabelVertically = true;
 
         $.extend(this, options);
@@ -94,8 +94,16 @@
 
             $box.appendTo(this.$div);
             $box.addClass(this.nodeClass(node, $box));
+			
+			var $toggle = $("<ul class='list-unstyled> <li><a data-placement='bottom' data-title="+node.label+
+			" data-toggle='popover' data-container='body' data-placement='bottom' type='button' data-html='true' href='#'>"+
+			"<span class='glyphicon glyphicon-tags'></a></li> <div id='popover-content' class='hide'>Horas Cargadas:"+node.value+
+			"<button class='btn btn-info'><span class='glyphicon glyphicon-play-circle'></span></button> </div></ul>");
 
-            var $content = $("<div>" + node.label + "</div>");
+			
+			
+			
+            var $content = $("<div>"+node.short+"</div>");
             $content.addClass('treemap-label');
             $content.css({
                 'display': 'inline',
@@ -103,12 +111,19 @@
                 'text-align': 'center',
                 'font-size': this.startingFontSize + 'px'
             });
+			
+			
+			
+			;
+			
             $box.append($content);
+			$box.append($toggle);
 
             this.fitLabelFontSize($content, node);
 
             if (this.centerLabelVertically) {
-                $content.css('margin-top', (parseInt($box.height()) / 2) - (parseInt($content.height()) / 2) + 'px');
+               // $content.css('margin-top', (parseInt($box.height()) / 2) - (parseInt($content.height()) / 2) + 'px');
+			    $content.css('margin-top', 3 + 'px');
             }
         }
         this.ready();

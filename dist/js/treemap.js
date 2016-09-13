@@ -28,13 +28,18 @@ $(selector).treemap(data, {
 		if (node.state=='disabled'){
 			$(box).disabled;
 		}else{
-			alert(node.state);
+			$('#popover-content').addClass('hide');
+			$("[data-toggle=popover]").popover({
+				html: true, 
+			content: function() {
+				return $('#popover-content').html();
+        }
+});	
+			
 		}
 	  },
 	  paintCallback: function (content, node){
-		if(node.state=='disabled'){
-				
-		}
+			
 		
 	  },
       itemMargin: 2

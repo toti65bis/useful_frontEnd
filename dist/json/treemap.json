@@ -2,117 +2,177 @@
 		"example1": [
 			  {
 			  "label": "Analisis Funcional",
-			  "value": 100, 
+			  "short": "AF",
+			  "estimated": 120,	
+			  "value": 100,
 			  "data": "label 1 data",
-			  "state": "disabled"
+			  "state": "disabled",
+			  "id":"caso_actividad_1"
 			  },
 			  {
 			  "label": "Analisis Tecnico",
+			  "short": "AT",
+			  "estimated": 120,
 			  "value": 150, 
 			  "data": "label 2 data",
-			  "state": "active"
+			  "state": "active",
+			  "id":"caso_actividad_2"
 			  },
 			  {
 			  "label": "Programacion",
+			  "short": "PG",
+			  "estimated": 120,
 			  "value": 30, 
 			  "data": "label 3 data",
-			  "state": "active"
+			  "state": "active",
+			  "id":"caso_actividad_3"
 			  },
 			  {
 			  "label": "Soporte QA",
+			  "short": "SQA",
+			  "estimated": 120,
 			  "value": 50, 
 			  "data": "label 5 data",
-			  "state": "active"
+			  "state": "active",
+			  "id":"caso_actividad_4"
 			  }
 		],
 		
 		"example2": [
 			  {
 			  "label": "Programacion",
+			  "short": "PG",
+			  "estimated": 120,
 			  "value": 25, 
 			  "data": "label 1 data",
-			  "state": "disabled"
+			  "state": "disabled",
+			  "id":"caso_actividad_5"
 			  },
 			  {
 			  "label": "Soporte QA",
+			  "short": "SQA",
+			  "estimated": 120,
 			  "value": 65, 
 			  "data": "label 2 data",
-			  "state": "active"
+			  "state": "active",
+			  "id":"caso_actividad_6"
 			  }
 			 
 		],
 		"example3": [
 			  {
 			  "label": "Analisis Tecnico",
+			  "short": "AT",
+			  "estimated": 120,
 			  "value": 80, 
 			  "data": "label 1 data",
-			  "state": "disabled"
+			  "state": "disabled",
+			  "id":"caso_actividad_7"
 			  },
 			  {
 			  "label": "Programacion",
+			  "short": "PG",
+			  "estimated": 120,
 			  "value": 160, 
 			  "data": "label 2 data",
-			  "state": "active"
+			  "state": "active",
+			  "id":"caso_actividad_8"
 			  },
 			  {
 			  "label": "Testeo Unitario",
+			  "short": "TU",
+			  "estimated": 120,
 			  "value": 40, 
 			  "data": "label 3 data",
-			  "state": "active"
+			  "state": "active",
+			  "id":"caso_actividad_9"
 			  },
 			  {
 			  "label": "Testeo de Integracion",
+			  "short": "TI",
+			  "estimated": 120,
 			  "value": 80, 
 			  "data": "label 5 data",
-			  "state": "active"
+			  "state": "active",
+			  "id":"caso_actividad_10"
 			  },
 			  {
 			  "label": "Soporte QA",
+			  "short": "SQA",
+			  "estimated": 120,
 			  "value": 20, 
 			  "data": "label 1 data",
-			  "state": "disabled"
+			  "state": "disabled",
+			  "id":"caso_actividad_11"
 			  },
 			  {
 			  "label": "Soporte UAT",
+			  "short": "SUA",
+			  "estimated": 120,
 			  "value": 10, 
 			  "data": "label 2 data",
-			  "state": "active"
+			  "state": "active",
+			  "id":"caso_actividad_12"
 			  },
 			  {
 			  "label": "Implementacion",
+			  "short": "IM",
+			  "estimated": 120,
 			  "value": 30, 
 			  "data": "label 3 data",
-			  "state": "active"
+			  "state": "active",
+			  "id":"caso_actividad_13"
 			  },
 			  {
 			  "label": "Soporte Post Productivo",
+			  "short": "SPP",
+			  "estimated": 120,
 			  "value": 50, 
 			  "data": "label 5 data",
-			  "state": "active"
+			  "state": "active",
+			  "id":"caso_actividad_14"
 			  }
 		],
 		"example4": [
 			  {
 			  "label": "Soporte",
+			  "short": "SO",
+			  "estimated": 60,
 			  "value": 100, 
 			  "data": "label 1 data",
-			  "state": "active"
+			  "state": "active",
+			  "id":"caso_actividad_15"
+			  },
+			  {
+			  "label": "Reunion",
+			  "short": "RE",
+			  "estimated": 24,
+			  "value": 100, 
+			  "data": "label 1 data",
+			  "state": "active",
+			  "id":"caso_actividad_16"
 			  }
 			 
 			 
 		],
 		"example5": [
 			  {
-			  "label": "Analisis tecnico",
+			  "label": "Analisis Tecnico",
+			  "short": "AT",
+			  "estimated": 120,
 			  "value": 40, 
 			  "data": "label 1 data",
-			  "state": "active"
+			  "state": "active",
+			  "id":"caso_actividad_17"
 			  },
 			  {
 			  "label": "Programacion",
+			  "short": "PG",
+			  "estimated": 120,
 			  "value": 90, 
 			  "data": "label 1 data",
-			  "state": "active"
+			  "state": "active",
+			  "id":"caso_actividad_18"
 			  }			 
 			 
 		]

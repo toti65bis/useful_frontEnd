@@ -1,0 +1,121 @@
+{
+		"example1": [
+			  {
+			  "label": "Analisis Funcional",
+			  "value": 100, 
+			  "data": "label 1 data",
+			  "state": "disabled"
+			  },
+			  {
+			  "label": "Analisis Tecnico",
+			  "value": 150, 
+			  "data": "label 2 data",
+			  "state": "active"
+			  },
+			  {
+			  "label": "Programacion",
+			  "value": 30, 
+			  "data": "label 3 data",
+			  "state": "active"
+			  },
+			  {
+			  "label": "Soporte QA",
+			  "value": 50, 
+			  "data": "label 5 data",
+			  "state": "active"
+			  }
+		],
+		
+		"example2": [
+			  {
+			  "label": "Programacion",
+			  "value": 25, 
+			  "data": "label 1 data",
+			  "state": "disabled"
+			  },
+			  {
+			  "label": "Soporte QA",
+			  "value": 65, 
+			  "data": "label 2 data",
+			  "state": "active"
+			  }
+			 
+		],
+		"example3": [
+			  {
+			  "label": "Analisis Tecnico",
+			  "value": 80, 
+			  "data": "label 1 data",
+			  "state": "disabled"
+			  },
+			  {
+			  "label": "Programacion",
+			  "value": 160, 
+			  "data": "label 2 data",
+			  "state": "active"
+			  },
+			  {
+			  "label": "Testeo Unitario",
+			  "value": 40, 
+			  "data": "label 3 data",
+			  "state": "active"
+			  },
+			  {
+			  "label": "Testeo de Integracion",
+			  "value": 80, 
+			  "data": "label 5 data",
+			  "state": "active"
+			  },
+			  {
+			  "label": "Soporte QA",
+			  "value": 20, 
+			  "data": "label 1 data",
+			  "state": "disabled"
+			  },
+			  {
+			  "label": "Soporte UAT",
+			  "value": 10, 
+			  "data": "label 2 data",
+			  "state": "active"
+			  },
+			  {
+			  "label": "Implementacion",
+			  "value": 30, 
+			  "data": "label 3 data",
+			  "state": "active"
+			  },
+			  {
+			  "label": "Soporte Post Productivo",
+			  "value": 50, 
+			  "data": "label 5 data",
+			  "state": "active"
+			  }
+		],
+		"example4": [
+			  {
+			  "label": "Soporte",
+			  "value": 100, 
+			  "data": "label 1 data",
+			  "state": "active"
+			  }
+			 
+			 
+		],
+		"example5": [
+			  {
+			  "label": "Analisis tecnico",
+			  "value": 40, 
+			  "data": "label 1 data",
+			  "state": "active"
+			  },
+			  {
+			  "label": "Programacion",
+			  "value": 90, 
+			  "data": "label 1 data",
+			  "state": "active"
+			  }			 
+			 
+		]
+		
+
+}

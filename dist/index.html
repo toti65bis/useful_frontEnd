@@ -10,7 +10,9 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/treemap.css" rel="stylesheet">
-	<link href="css/hcaptions.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	
+	  
 
 	
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -32,7 +34,7 @@
 		</div>		
 		<div class="row">
 			<div class="col-xs-12 col-sm-4 ">
-				<div class="panel panel-info">
+				<div class="panel panel-danger">
 				<div class="panel-heading">
 				<span class="glyphicon glyphicon-info-sign" >		
 					</span> 
@@ -115,7 +117,7 @@
     <script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery-treemap.js"></script>
 	<script src="js/treemap.js"></script>
-	<script src="js/jquery.hcaptions.js"></script>
+	
 	
 	<script>	
 		
@@ -125,10 +127,10 @@
 		var examples;
 			
 		 $.ajax({
-				    dataType: 'json',
+                    dataType: 'json',
 					url: 'json/treemap.json',
 					success: function(result){
-						drawTreeMap('div#my-treemap',result.example1);
+						drawTreeMap('div#my-treemap', result.example1);
 						drawTreeMap('div#my-treemap2',result.example2);
 						drawTreeMap('div#my-treemap3',result.example3);
 						drawTreeMap('div#my-treemap4',result.example4);

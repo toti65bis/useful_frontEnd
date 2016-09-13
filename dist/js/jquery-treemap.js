@@ -44,8 +44,8 @@
         this.ready = function () {
         };
         this.itemMargin = 0;
-        this.smallestFontSize = 14;
-        this.startingFontSize = 24;
+        this.smallestFontSize = 8;
+        this.startingFontSize = 18;
         this.centerLabelVertically = true;
 
         $.extend(this, options);
@@ -95,10 +95,10 @@
             $box.appendTo(this.$div);
             $box.addClass(this.nodeClass(node, $box));
 			
-			var $toggle = $("<ul class='list-unstyled> <li><a data-placement='bottom' data-title="+node.label+
-			" data-toggle='popover' data-container='body' data-placement='bottom' type='button' data-html='true' href='#'>"+
-			"<span class='glyphicon glyphicon-tags'></a></li> <div id='popover-content' class='hide'>Horas Cargadas:"+node.value+
-			"<button class='btn btn-info'><span class='glyphicon glyphicon-play-circle'></span></button> </div></ul>");
+			
+		
+			
+			var $toggle = $("<div class='wrapper'><i aria-hidden='true'><span class='fa fa-youtube-play'/></div>");
 
 			
 			

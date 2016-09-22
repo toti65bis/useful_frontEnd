@@ -42,7 +42,7 @@
 		color:white;
 	  }
 
-
+body { padding-top: 8px; }
 
 .wrapper{ // I'm just here to center things up
   background-color: beige;

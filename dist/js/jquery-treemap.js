@@ -98,7 +98,7 @@
 			
 		
 			
-			var $toggle = $("<div class='wrapper'><i aria-hidden='true'><span class='fa fa-youtube-play'/></div>");
+			//var $toggle = $("<div class='wrapper'><i aria-hidden='true'><span class='fa fa-youtube-play'/></div>");
 
 			
 			
@@ -117,7 +117,7 @@
 			;
 			
             $box.append($content);
-			$box.append($toggle);
+			//$box.append($toggle);
 
             this.fitLabelFontSize($content, node);
 
